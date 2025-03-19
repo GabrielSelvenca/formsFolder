@@ -13,22 +13,14 @@ namespace IntroducaoForms
 {
     public partial class LoginForm : Form
     {
-        
-        List<User> usersList = new List<User>();
         public LoginForm()
         {
             InitializeComponent();
-
-            // Criando usuários fictícios para simular busca em banco de dados.
-
-            usersList.Add(new User("senai134@gmail.com", "info@134"));
-            usersList.Add(new User("gabriel.selvenca@gmail.com", "senha123"));
-            usersList.Add(new User("fiorentino@gmail.com", "123senha"));
         }
 
         private void ButtonJoin_MouseClick(object sender, MouseEventArgs e)
         {
-            var searchUser = usersList.FirstOrDefault(x => x.Email==TxtEmail.Text && x.Password == TxtPassword.Text);
+            var searchUser = GlobalData.UserList.FirstOrDefault(x => x.Email==TxtEmail.Text && x.Password == TxtPassword.Text);
 
             if (searchUser == null)
             {
@@ -43,18 +35,5 @@ namespace IntroducaoForms
         {
             new RegisterForm().Show();
         }
-    }
-}
-
-// Criando o objeto Usuário para simular um banco de dados.
-public class User
-{
-    public string Email { get; set; }
-    public string Password { get; set; }
-
-    public User(string email, string password)
-    {
-        Email = email;
-        Password = password;
     }
 }
