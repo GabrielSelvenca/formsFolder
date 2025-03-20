@@ -27,7 +27,7 @@ namespace IntroducaoForms
 
             GlobalData.UserList.Add(new User(TxtEmail.Text, TxtPassword.Text, TxtName.Text, TxtColor.Text, DateAge.Value));
 
-            MessageBox.Show("Dados cadastrados!");
+            MessageBox.Show($"Dados cadastrados para {TxtName.Text}!");
         }
     }
 }

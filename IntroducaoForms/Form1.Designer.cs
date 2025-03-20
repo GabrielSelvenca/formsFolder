@@ -52,7 +52,7 @@
             this.TxtEmail.Location = new System.Drawing.Point(195, 86);
             this.TxtEmail.Name = "TxtEmail";
             this.TxtEmail.Size = new System.Drawing.Size(416, 23);
-            this.TxtEmail.TabIndex = 1;
+            this.TxtEmail.TabIndex = 0;
             // 
             // ButtonJoin
             // 
@@ -82,6 +82,7 @@
             this.TxtPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtPassword.Location = new System.Drawing.Point(195, 170);
             this.TxtPassword.Name = "TxtPassword";
+            this.TxtPassword.PasswordChar = '*';
             this.TxtPassword.Size = new System.Drawing.Size(416, 23);
             this.TxtPassword.TabIndex = 1;
             // 

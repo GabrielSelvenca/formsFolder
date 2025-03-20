@@ -28,7 +28,7 @@ namespace IntroducaoForms
                 return;
             }
 
-            MessageBox.Show("Dados corretos! Bem vindo!");
+            MessageBox.Show($"Dados corretos! Bem vindo {searchUser.Name}!");
         }
 
         private void LinkRegister_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)

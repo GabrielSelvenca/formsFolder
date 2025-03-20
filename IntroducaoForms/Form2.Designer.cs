@@ -49,7 +49,7 @@
             this.LinkLogin.Location = new System.Drawing.Point(378, 383);
             this.LinkLogin.Name = "LinkLogin";
             this.LinkLogin.Size = new System.Drawing.Size(43, 17);
-            this.LinkLogin.TabIndex = 9;
+            this.LinkLogin.TabIndex = 6;
             this.LinkLogin.TabStop = true;
             this.LinkLogin.Text = "Login";
             // 
@@ -61,7 +61,7 @@
             this.ButtonRegister.Location = new System.Drawing.Point(338, 339);
             this.ButtonRegister.Name = "ButtonRegister";
             this.ButtonRegister.Size = new System.Drawing.Size(124, 41);
-            this.ButtonRegister.TabIndex = 8;
+            this.ButtonRegister.TabIndex = 5;
             this.ButtonRegister.Text = "Register";
             this.ButtonRegister.UseVisualStyleBackColor = false;
             this.ButtonRegister.Click += new System.EventHandler(this.ButtonRegister_Click);
@@ -72,7 +72,7 @@
             this.TxtName.Location = new System.Drawing.Point(188, 181);
             this.TxtName.Name = "TxtName";
             this.TxtName.Size = new System.Drawing.Size(416, 23);
-            this.TxtName.TabIndex = 6;
+            this.TxtName.TabIndex = 2;
             // 
             // LabelName
             // 
@@ -90,7 +90,7 @@
             this.TxtEmail.Location = new System.Drawing.Point(188, 66);
             this.TxtEmail.Name = "TxtEmail";
             this.TxtEmail.Size = new System.Drawing.Size(416, 23);
-            this.TxtEmail.TabIndex = 7;
+            this.TxtEmail.TabIndex = 0;
             // 
             // LabelEmail
             // 
@@ -118,7 +118,7 @@
             this.TxtColor.Location = new System.Drawing.Point(188, 242);
             this.TxtColor.Name = "TxtColor";
             this.TxtColor.Size = new System.Drawing.Size(416, 23);
-            this.TxtColor.TabIndex = 6;
+            this.TxtColor.TabIndex = 3;
             // 
             // LabelAge
             // 
@@ -137,7 +137,7 @@
             this.DateAge.MinDate = new System.DateTime(1910, 1, 1, 0, 0, 0, 0);
             this.DateAge.Name = "DateAge";
             this.DateAge.Size = new System.Drawing.Size(93, 20);
-            this.DateAge.TabIndex = 10;
+            this.DateAge.TabIndex = 4;
             this.DateAge.Value = new System.DateTime(2025, 3, 19, 0, 0, 0, 0);
             // 
             // LabelPassword
@@ -155,8 +155,9 @@
             this.TxtPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtPassword.Location = new System.Drawing.Point(188, 123);
             this.TxtPassword.Name = "TxtPassword";
+            this.TxtPassword.PasswordChar = '*';
             this.TxtPassword.Size = new System.Drawing.Size(416, 23);
-            this.TxtPassword.TabIndex = 7;
+            this.TxtPassword.TabIndex = 1;
             // 
             // RegisterForm
             // 
